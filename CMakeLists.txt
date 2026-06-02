@@ -12,7 +12,7 @@ endif()
 project ("code-app")
 
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (code-app "code-app.cpp" "code-app.h" "main.cpp" "db.h" "db.cpp" "controllers/auth.cpp" "controllers/auth.h")
+add_executable (code-app "code-app.cpp" "code-app.h" "main.cpp" "db.h" "db.cpp" "controllers/auth.cpp" "controllers/auth.h" "controllers/task.h" "controllers/task.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET code-app PROPERTY CXX_STANDARD 20)

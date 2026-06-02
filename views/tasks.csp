@@ -1,0 +1,12 @@
+<h1>Tasks</h1>
+
+<div id="list"></div>
+
+<script>
+fetch("/task/list")
+.then(r => r.json())
+.then(data => {
+    document.getElementById("list").innerHTML =
+        JSON.stringify(data);
+});
+</script>
