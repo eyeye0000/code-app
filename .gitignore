@@ -1,0 +1,21 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+
+# Build
+x64/
+Debug/
+Release/
+out/
+build/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# OS
+.DS_Store
+Thumbs.db
